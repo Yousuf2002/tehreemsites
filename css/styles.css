@@ -117,6 +117,13 @@ right: 30%;
 
 @media (max-width : 1028px)
 {
+  h5
+  {
+    font-family: serif;
+  }
+  .intro-text{
+    font-family: serif;
+  }
   #title
   {
     text-align: center;
