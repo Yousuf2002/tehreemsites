@@ -108,7 +108,59 @@ right: 30%;
 }
 .vids
 {
-  position: relative;
+
+   position: relative;
   left: 350px;
   margin-top: 0;
+}
+
+
+@media (max-width : 1028px)
+{
+  #title
+  {
+    text-align: center;
+  }
+
+.title-image
+{
+  position: static;
+  transform: rotate(-25deg);
+}
+.title-image2
+{
+  position: static;
+  transform: rotate(25deg);
+  border-radius: 10px;
+}
+
+.future
+{
+  text-align: center;
+}
+.video {
+  width: 400px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+.testimonial-text2
+{
+  text-align: center;
+
+}
+.vids
+{
+  position: relative;
+  left: 30px;
+  width: 400px;
+}
+.footer-text
+{
+  font-size: 1.5rem;
+}
+.big-heading
+{
+  margin-top: 0;
+}
 }
